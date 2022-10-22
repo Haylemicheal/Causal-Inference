@@ -48,3 +48,30 @@ class Util:
         place1 =(float(start[0]),float(start[1]))
         place2 =(float(end[0]),float(end[1]))
         return GD(place1,place2).km
+
+    def split_date(self, date):
+        """
+        Split the date in to year, month, and day
+        Args:
+            date: date input
+        Return:
+            year: The year
+            month: The month
+            day: The day
+            hour: The hour
+        """
+        date = date.split(" ")
+        hour = date[1]
+        date = date[0].split("-")
+        year = date[0]
+        month = date[1]
+        day = date[2]
+        return year, month, day, hour
+    def split_time(self, time):
+        """
+        Split the time to hour, minute and seconds
+        Args:
+            time: The time input
+        """
+        hour, minute, second = time.split(":")
+        return hour, minute, second
