@@ -1,7 +1,6 @@
 import unittest
 import sys, os
 import io
-import pandas as pd
 sys.path.append(os.path.abspath(os.path.join('..')))
 
 from scripts.utils import Util
