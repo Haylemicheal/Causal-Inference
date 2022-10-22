@@ -14,7 +14,11 @@ In this project we are supposed to work on the data to help the company understa
 - Causal learning
 - Logistic optimization
 ## Project Structure
-
+- .dvc: Contains dvc data
+- data: Folder for dataset
+- scripts: Contains script codes
+- tests: contains tests for scripts
+- logs: contains logs
 ## Author
 
 - [Haylemicheal Berihun](https://www.linkedin.com/in/haylemicheal-berihun-a20320aa)
