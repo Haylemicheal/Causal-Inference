@@ -1,0 +1,6 @@
+artifact_location: file:///home/hmicheal/Documents/Files/Projects/10xac/Causal-Inference/notebooks/mlruns/1
+creation_time: 1666594225059
+experiment_id: '1'
+last_update_time: 1666594225059
+lifecycle_stage: active
+name: random_forest_regressor
