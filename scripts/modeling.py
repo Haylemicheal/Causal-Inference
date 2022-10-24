@@ -114,22 +114,7 @@ class Model:
         f_df["importance"] = importance
         return f_df
 
-    def prediction_graph(self, res_dataframe):
-        """
-        The prediction graph
-        Args:
-            res_dataframe: input dataframe
-        """
-        fig = plt.figure(figsize=(18, 5))
-        sns.lineplot(x=res_dataframe.index,
-                     y=res_dataframe["Actual Sales"], label='Actual')
-        sns.lineplot(x=res_dataframe.index,
-                     y=res_dataframe["Prediction Sales"], label='Prediction')
-        plt.xticks(fontsize=14)
-        plt.yticks(fontsize=14)
-        plt.xlabel(xlabel="Day", fontsize=16)
-        plt.ylabel(ylabel="Sales", fontsize=16)
-        plt.show()
+    
     
 
     
